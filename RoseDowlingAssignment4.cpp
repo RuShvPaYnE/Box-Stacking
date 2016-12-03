@@ -20,9 +20,10 @@ int main(){
 cout << "Enter a box weight, or enter 0 to exit ";
 cin >> weight;
 while(weight != 0){
-	cin >> weight;
 	cout << "Enter a box strength: ";
 	cin >> strength;
+	cout << "Enter a box weight, or enter 0 to exit ";
+	cin >> weight;
 }
 	
 
