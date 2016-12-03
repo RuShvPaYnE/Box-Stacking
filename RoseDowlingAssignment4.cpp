@@ -15,6 +15,17 @@ void Boxes::set_values(int w, int s){
 }
 
 int main(){
+	int weight;
+	int strength;
+cout << "Enter a box weight, or enter 0 to exit ";
+cin >> weight;
+while(weight != 0){
+	cin >> weight;
+	cout << "Enter a box strength: ";
+	cin >> strength;
+}
+	
+
 	
 	
 	 
