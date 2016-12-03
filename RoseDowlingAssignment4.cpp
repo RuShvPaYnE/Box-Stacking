@@ -1,9 +1,10 @@
 #include <iostream>
 #include <vector>
+#include <ostream>
 using namespace std;
 
 class Boxes{
-	int weight, strength;
+	public: int weight, strength;
 	
 	public:
 		void set_values(int,int);
@@ -30,8 +31,8 @@ while(weight != 0){
 	cin >> weight;
 	
 }
-for (std::vector<Boxes>::const_iterator i = boxes.begin(); i != boxes.end(); ++i)
-    std::cout << *i << ' ';
+for (auto i: boxes)
+  cout << i.weight << ' ';
 
 	
 	
