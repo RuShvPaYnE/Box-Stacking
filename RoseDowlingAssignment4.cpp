@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <vector>
 using namespace std;
 
 class Boxes{
@@ -30,7 +30,8 @@ while(weight != 0){
 	cin >> weight;
 	
 }
-cout << boxes;
+for (std::vector<Boxes>::const_iterator i = boxes.begin(); i != boxes.end(); ++i)
+    std::cout << *i << ' ';
 
 	
 	
